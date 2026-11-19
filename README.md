@@ -1,26 +1,120 @@
 # Alas de Señas — publicación por capas
 
-Esta es una entrega parcial del proyecto. Conserva las rutas de
-`alas-de-senas.code-workspace`: al abrir ese archivo en VS Code aparecen
-las capas con sus nombres originales.
+Explora el proyecto con los mismos nombres y en el mismo orden que en VS Code.
+Despliega una capa y selecciona **Abrir carpeta** para ver sus archivos.
 
-`main` comienza con la estructura. Cada capa se incorpora mediante su propio
-pull request, que debe revisar y aceptar el propietario. Los pull requests
-son independientes y pueden aceptarse en cualquier orden.
+<details open>
+<summary><strong>alas-de-senas (Workspace)</strong></summary>
 
-| Vista del workspace | Ruta | Contenido de esta entrega |
-|---|---|---|
-| Frontend (React) | `apps/web` | Vacía, solo `.gitkeep` |
-| API — rutas HTTP | `apps/api/app/api` | Vacía, solo `.gitkeep` |
-| API — formatos JSON | `apps/api/app/schemas` | Vacía, solo `.gitkeep` |
-| Backend — reglas de negocio | `apps/api/app/domain` | Vacía, solo `.gitkeep` |
-| Backend — servicios | `apps/api/app/services` | Vacía, solo `.gitkeep` |
-| Base de datos — modelos y repositorios | `apps/api/app/infra` | PR `feat/base-de-datos` |
-| Base de datos — migraciones | `apps/api/alembic` | PR `feat/base-de-datos` |
-| Contenido (señas y lecciones) | `content` | PR `feat/contenido` |
-| Entrenamiento del modelo | `ml` | PR `feat/entrenamiento-modelo` |
-| Documentación | `docs` | PR `docs/documentacion` |
-| Proyecto completo (comandos) | `.` | PR `chore/proyecto-comandos` |
+<details>
+<summary>1 · Frontend (React)</summary>
+
+[Abrir carpeta →](apps/web/) · `apps/web`
+
+Reservada para una próxima entrega; contiene únicamente `.gitkeep`.
+
+</details>
+
+<details>
+<summary>2 · API — rutas HTTP</summary>
+
+[Abrir carpeta →](apps/api/app/api/) · `apps/api/app/api`
+
+Reservada para una próxima entrega; contiene únicamente `.gitkeep`.
+
+</details>
+
+<details>
+<summary>2 · API — formatos JSON</summary>
+
+[Abrir carpeta →](apps/api/app/schemas/) · `apps/api/app/schemas`
+
+Reservada para una próxima entrega; contiene únicamente `.gitkeep`.
+
+</details>
+
+<details>
+<summary>3 · Backend — reglas de negocio</summary>
+
+[Abrir carpeta →](apps/api/app/domain/) · `apps/api/app/domain`
+
+Reservada para una próxima entrega; contiene únicamente `.gitkeep`.
+
+</details>
+
+<details>
+<summary>3 · Backend — servicios</summary>
+
+[Abrir carpeta →](apps/api/app/services/) · `apps/api/app/services`
+
+Reservada para una próxima entrega; contiene únicamente `.gitkeep`.
+
+</details>
+
+<details>
+<summary>4 · Base de datos — modelos y repositorios</summary>
+
+[Abrir carpeta →](apps/api/app/infra/) · `apps/api/app/infra`
+
+Tablas y consultas de la aplicación. [Ver entrega de la capa (PR #1)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/1).
+
+</details>
+
+<details>
+<summary>4 · Base de datos — migraciones</summary>
+
+[Abrir carpeta →](apps/api/alembic/) · `apps/api/alembic`
+
+Evolución del esquema de PostgreSQL. [Ver entrega de la capa (PR #1)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/1).
+
+</details>
+
+<details>
+<summary>Contenido (señas y lecciones)</summary>
+
+[Abrir carpeta →](content/) · `content`
+
+Señas, currículo y videos. [Ver entrega de la capa (PR #2)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/2).
+
+</details>
+
+<details>
+<summary>Entrenamiento del modelo</summary>
+
+[Abrir carpeta →](ml/) · `ml`
+
+Scripts, notebooks y datasets. [Ver entrega de la capa (PR #3)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/3).
+
+</details>
+
+<details>
+<summary>Documentación</summary>
+
+[Abrir carpeta →](docs/) · `docs`
+
+Especificaciones, decisiones y guías. [Ver entrega de la capa (PR #4)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/4).
+
+</details>
+
+<details>
+<summary>Proyecto completo (comandos)</summary>
+
+[Abrir carpeta →](./) · Raíz del repositorio
+
+Configuración, comandos y soporte del proyecto. [Ver entrega de la capa (PR #5)](https://github.com/rcamilorodriguez1/Alas-De-Senas-Proyecto/pull/5).
+
+</details>
+
+</details>
+
+Esta navegación corresponde a las vistas de
+[`alas-de-senas.code-workspace`](alas-de-senas.code-workspace). En VS Code,
+abre ese archivo para usar el explorador del workspace. En GitHub, el listado
+de archivos superior muestra las rutas reales del repositorio.
+
+Cada capa se incorpora mediante su propio pull request, que revisa y acepta
+el propietario. Mientras una entrega esté pendiente, su carpeta puede contener
+solo `.gitkeep`. Los pull requests de las capas pueden aceptarse en cualquier orden.
 
 La capa de base de datos incluye `apps/api/alembic.ini`, `docker/` y
 `docker-compose.yml`. La capa de comandos incluye configuración, herramientas,
