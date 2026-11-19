@@ -1,0 +1,40 @@
+fuente,etiqueta_fuente,slug
+# Señas de datasets externos → slugs de content/signs.csv (anexo A.7, regla 3). Las que no estén aquí
+# se ignoran. «NINGUNA» = ejemplos negativos: señas fuera del modelo que la cámara no debe confundir.
+LSC-54,Hola,hola
+LSC-54,Chao,adios
+LSC-54,Por favor,por-favor
+LSC-54,Denada,de-nada
+LSC-54,Perdon,perdon
+LSC-54,Gracias,gracias
+LSC-54,Buenos dias,buenos-dias
+LSC-54,Buenas tardes,buenas-tardes
+LSC-54,Buenas Noches,buenas-noches
+# NINGUNA: señas de LSC-54 que NO están en el currículo (D-044). Nunca una que se enseña:
+# «Ayudar» (≈ «Ayuda», M3-N4), «Baño» (M3-N2) y «Muchas gracias» (contiene «gracias») quedan fuera.
+LSC-54,Bien,NINGUNA
+LSC-54,Mal,NINGUNA
+LSC-54,Apoyar,NINGUNA
+LSC-54,Bienvenido,NINGUNA
+LSC-54,Con gusto,NINGUNA
+LSC-54,Esperar,NINGUNA
+LSC-54,Excelente,NINGUNA
+LSC-54,Invitar,NINGUNA
+LSC-54,Lo siento,NINGUNA
+LSC-54,Mas o menos,NINGUNA
+LSC-54,Muy bien,NINGUNA
+LSC-54,Muy mal,NINGUNA
+LSC-54,Necesitar,NINGUNA
+LSC-54,Perfecto,NINGUNA
+LSC-54,Presentar,NINGUNA
+LSC-54,Sentarse,NINGUNA
+LSC-54,Tranquilo,NINGUNA
+LSC-54,Como esta,como-estas
+LSC-54,Si,si
+LSC-54,No,no
+LSC-54,Permiso,con-permiso
+LSC-54,Seis,numero-6
+LSC-54,Siete,numero-7
+LSC-54,Ocho,numero-8
+LSC-54,Nueve,numero-9
+LSC-54,Diez,numero-10
